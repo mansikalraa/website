@@ -1,7 +1,7 @@
 *{
   margin:0;
   padding:0;
-  font-family:verdana;
+  font-family:times new roman;
 }
 html {
 	scroll-behavior: smooth;
@@ -50,12 +50,10 @@ nav ul li a{
 	color:white;
 	margin-left:50px;
 	font-size:70px;
-	font-family:times new roman;
 }
 .desc{
 	width : 475px;
 	font-size:15px;
-	font-family:times new roman;
 	padding-top:10px;
 }
 
@@ -113,13 +111,15 @@ nav ul li a{
 	float:right;
 	width : 700px;
 	font-size:25px;
-	font-family:times new roman;
 	padding-top:100px;
+	font-weight: bold;
 }
 p {
 	padding-top:50px;
-	padding-right:100px;
+	padding-right:150px;
 	font-size:25px;
+	font-weight: lighter;
+	text-align:justify;
 }
 
 /*--------------PROJECTS-----------------*/
@@ -136,4 +136,27 @@ p {
 	height:100vh;
 	background-image: url(img/contact.jpg);
 	background-size: cover;
+}
+.container{
+	padding:100px;
+	margin:auto;
+	width:600px;
+	display:block;
+	height:300px;
+	background-color:white;
+	text-align:center;
+	opacity: 0.6;
+	border: 5px double black;
+}
+
+.container h1{
+	font-size:60px;
+}
+
+.row > .column{
+	display:inline-block;
+	width: 100px;
+    border: 2px solid black;
+	border-radius: 5px;
+	margin: 10px;
 }
