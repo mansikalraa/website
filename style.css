@@ -3,27 +3,18 @@
   padding:0;
   font-family:verdana;
 }
-#home{
-  width:100%;
-  height:100vh;
-  background-image: url(img/background.jpg);
-  background-size: cover;
+html {
+	scroll-behavior: smooth;
+	height: 100%;
 }
-#hello{
-	color:white;
-	margin-top:250px;
-	margin-left:50px;
-	font-size:70px;
-	font-family:times new roman;
+body{
+	height:100%;
+	opacity:0.9;
 }
-.desc{
-	height : 150px;
-	width : 475px;
-	font-size:15px;
-	font-family:times new roman;
-	padding-top:10px;
-}
+
+/*--------------NAVBAR-----------------*/
 nav{
+	position:fixed;
   width: 100%;
   height: 50px;
   background-color: #0005;
@@ -45,4 +36,104 @@ nav ul li a{
   text-decoration: none;
   color: white;
   padding: 30px;
+}
+
+/*--------------HOMEPAGE-----------------*/
+#home{
+	width:100%;
+	height:100vh;
+	background-image: url(img/background.jpg);
+	background-size: cover;
+}
+.hello{
+	padding-top:400px;
+	color:white;
+	margin-left:50px;
+	font-size:70px;
+	font-family:times new roman;
+}
+.desc{
+	width : 475px;
+	font-size:15px;
+	font-family:times new roman;
+	padding-top:10px;
+}
+
+.type {
+  display:inline-block;
+  vertical-align: bottom;
+  font-family:times new roman;
+  font-size:70px;
+}
+
+.type > span {
+  display:grid;
+  overflow: hidden;
+  height:1.14em;
+}
+
+.type span span {
+	font-family:times new roman;
+	font-size:70px;
+	width:0%;
+	max-width:max-content;
+	overflow: hidden;
+	height:inherit;
+	word-break:break-all;
+	animation:
+		c 0.5s infinite steps(1),  
+		t 2s linear infinite alternate,
+		m 12s steps(3) infinite;
+}
+.type span span:before {
+  content:" ";
+  display:inline-block;
+}
+
+@keyframes t{
+  90%,100% {width:100%}
+}
+
+@keyframes c{
+  0%,100%{box-shadow:5px 0 0 #0000}
+  50%    {box-shadow:5px 0 0 white  }
+}
+@keyframes m{
+  100% {transform:translateY(-300%)}
+}
+
+/*--------------ABOUT-----------------*/
+#about{
+	width:100%;
+	height:100vh;
+	background-image: url(img/about.jpg);
+	background-size: cover;
+}
+.about-me{
+	float:right;
+	width : 700px;
+	font-size:25px;
+	font-family:times new roman;
+	padding-top:100px;
+}
+p {
+	padding-top:50px;
+	padding-right:100px;
+	font-size:25px;
+}
+
+/*--------------PROJECTS-----------------*/
+#projects{
+	width:100%;
+	height:100vh;
+	background-image: url(img/projects.jpg);
+	background-size: cover;
+}
+
+/*--------------CONTACT-----------------*/
+#contact{
+	width:100%;
+	height:100vh;
+	background-image: url(img/contact.jpg);
+	background-size: cover;
 }
