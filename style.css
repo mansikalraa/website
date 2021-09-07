@@ -101,7 +101,7 @@ nav ul li a{
 
 /*--------------ABOUT-----------------*/
 #about{
-	width:100%;
+	width:100vh;
 	height:100vh;
 	background-image: url(img/about.jpg);
 	background-size: cover;
