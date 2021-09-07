@@ -110,14 +110,21 @@ nav ul li a{
 }
 .about-me{
 	float:right;
-	width : 700px;
+	width : 600px;
 	font-size:25px;
 	padding-top:100px;
-	font-weight: bold;
+	padding:50px;
+	margin-right:70px;
+	display:block;
+	height:400px;
+	background-color:white;
+	text-align:center;
+	opacity: 0.6;
+	border: 5px solid grey;
 }
 p {
 	padding-top:50px;
-	padding-right:150px;
+	padding-right:30px;
 	font-size:25px;
 	font-weight: lighter;
 	text-align:justify;
