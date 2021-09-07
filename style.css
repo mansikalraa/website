@@ -136,7 +136,7 @@ p {
 
 /*--------------CONTACT-----------------*/
 #contact{
-	width:100%;
+	width:100vh;
 	height:100vh;
 	background-image: url(img/contact.jpg);
 	background-size: cover;
