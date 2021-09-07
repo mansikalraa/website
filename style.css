@@ -47,7 +47,7 @@ nav ul li a{
 
 /*--------------HOMEPAGE-----------------*/
 #home{
-	width:100%;
+	width:100vh;
 	height:100vh;
 	background-image: url(img/background.jpg);
 	background-size: cover;
@@ -126,7 +126,7 @@ p {
 
 /*--------------PROJECTS-----------------*/
 #projects{
-	width:100%;
+	width:100vh;
 	height:100vh;
 	background-image: url(img/projects.jpg);
 	background-size: cover;
