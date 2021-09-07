@@ -1,7 +1,7 @@
 *{
-  margin:0;
-  padding:0;
-  font-family:times new roman;
+	margin:0;
+	padding:0;
+	font-family:times new roman;
 }
 html {
 	scroll-behavior: smooth;
@@ -13,29 +13,36 @@ body{
 }
 
 /*--------------NAVBAR-----------------*/
-nav{
+#nav{
 	position:fixed;
-  width: 100%;
-  height: 50px;
-  background-color: #0005;
-  line-height: 50px;
+	width: 100%;
+	height: 50px;
+	background-color: #0005;
+	line-height: 50px;
+}
+#logo { 
+	float: left;
+	display: inline-block;
+	height:50px;
+	padding:2px;
+	padding-left:30px;
 }
 nav ul{
-  float: right;
-  margin-right: 30px;
+	float: right;
+	margin-right: 30px;
 }
 nav ul li{
-  list-style-type: none;
-  display: inline-block;
-  transition: 0.7s all;
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.7s all;
 }
 nav ul li:hover{
-  background-color:black;
+	background-color:black;
 }
 nav ul li a{
-  text-decoration: none;
-  color: white;
-  padding: 30px;
+	text-decoration: none;
+	color: white;
+	padding: 30px;
 }
 
 /*--------------HOMEPAGE-----------------*/
@@ -53,25 +60,17 @@ nav ul li a{
 	margin-left:50px;
 	font-size:70px;
 }
-.desc{
-	width : 475px;
-	font-size:15px;
-	padding-top:10px;
-}
-
 .type {
-  display:inline-block;
-  vertical-align: bottom;
-  font-family:times new roman;
-  font-size:70px;
+	display:inline-block;
+	vertical-align: bottom;
+	font-family:times new roman;
+	font-size:70px;
 }
-
 .type > span {
-  display:grid;
-  overflow: hidden;
-  height:1.14em;
+	display:grid;
+	overflow: hidden;
+	height:1.14em;
 }
-
 .type span span {
 	font-family:times new roman;
 	font-size:70px;
@@ -86,20 +85,18 @@ nav ul li a{
 		m 12s steps(3) infinite;
 }
 .type span span:before {
-  content:" ";
-  display:inline-block;
+	content:" ";
+	display:inline-block;
 }
-
 @keyframes t{
-  90%,100% {width:100%}
+	90%,100% {width:100%}
 }
-
 @keyframes c{
-  0%,100%{box-shadow:5px 0 0 #0000}
-  50%    {box-shadow:5px 0 0 white  }
+	0%,100%{box-shadow:5px 0 0 #0000}
+	50%    {box-shadow:5px 0 0 white  }
 }
 @keyframes m{
-  100% {transform:translateY(-300%)}
+	100% {transform:translateY(-300%)}
 }
 
 /*--------------ABOUT-----------------*/
@@ -124,6 +121,7 @@ p {
 	font-size:25px;
 	font-weight: lighter;
 	text-align:justify;
+	line-height:40px;
 }
 
 /*--------------PROJECTS-----------------*/
@@ -156,11 +154,9 @@ p {
 	opacity: 0.6;
 	border: 5px double black;
 }
-
 .container h1{
 	font-size:60px;
 }
-
 .row > .column{
 	display:inline-block;
 	width: 100px;
