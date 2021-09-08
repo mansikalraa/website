@@ -139,6 +139,11 @@ p {
 	max-height:100%;
 	min-width:100%;
 }
+.my-projects{
+	padding-top:300px;
+	text-align:center;
+	opacity: 0.6;
+}
 
 /*--------------CONTACT-----------------*/
 #contact{
